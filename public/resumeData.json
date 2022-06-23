@@ -8,35 +8,25 @@
     "image": "profile_pic.jpg",
     "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack for online security, and a passion for coding. Born in a small town in Northern BC, I made my move to Victoria where I work as a full stack developer for Instant Domain Search, alongside my many ongoing projects. I love to create and tend to keep a few too many projects on the go at a time. Outside of work I am an avid motorcyclist, soccer player and Muay Thai fighter. I love to travel and lead a fairly nomadic lifestyle. I built much of my early portfolio from beaches of Southeast Asia and dream of being able to take my work with me while travelling the world.",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
-    "email": "tbakerx@gmail.com",
-    "phone": "(250) 793-0920",
+    "email": "mas152q@gmail.com",
+    "phone": "Email To Request",
     "address": {
       "street": "Pacific Avenue",
       "city": "Victoria",
       "state": "British Columbia",
       "zip": "V9A 1L6"
     },
-    "website": "http://www.timbakerdev.com",
+    "website": "",
     "resumedownload": "https://drive.google.com/uc?export=pdf&id=1JZ_9_koC-W0jVg39lGh8Jd0hwJzv8kqn",
     "social": [
-      {
-        "name": "facebook",
-        "url": "http://facebook.com/tim.baker.906",
-        "className": "fa fa-facebook"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
         "className": "fa fa-linkedin"
       },
       {
-        "name": "instagram",
-        "url": "http://instagram.com/tbakerx",
-        "className": "fa fa-instagram"
-      },
-      {
         "name": "stack-overflow",
-        "url": "https://stackoverflow.com/users/8553186/tim-baker?tab=profile",
+        "url": "https://stackoverflow.com/",
         "className": "fa fa-stack-overflow"
       },
       {
@@ -50,15 +40,15 @@
     "skillmessage": "I'm a tinkerer and am always interested in playing around with new technologies but these are the ones that have really won me over",
     "education": [
       {
-        "school": "University of Victoria",
+        "school": "University of Wollongong",
         "degree": "Bachelors in Computer Science, Software Engineering Option",
         "graduated": "Expected April 2018",
         "description": "Under the recommendation and Guidance of the Head Coach of the UVIC soccer team, I transferred to the University of Victoria. Here I took my Bachelors of Computer Science with a Software Engineering Specialty and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems, and found that I have a knack for understanding complex algorithms."
       },
       {
-        "school": "Grande Prairie Regional College",
-        "degree": "Computer Systems Technology",
-        "graduated": "April 2013",
+        "school": "University of Sydney",
+        "degree": "Full Stack Developer",
+        "graduated": "August 2022",
         "description": "I attended GPRC for my first 2 years of post-secondary on a scholarship for the college soccer team. While here, I studied Computer Systems Technology, a 2 year lead-in to a Bachelors of Computer Science. This was a very hands-on experience focused more on building projects than general theory. Here I built database structures for fictional companies, created small video games, hand-coded Space Invaders from scratch in Assembly Language, built and coded an Arduino Robot to navigate obstacle courses, a lot of Java and C++ programming for data structures, and much more."
       }
     ],
