@@ -25,7 +25,6 @@ const App = () => {
       .get('/resumeData.json')
       .then((response) => {
         console.log('data', response.data);
-        this.setState({ resumeData: response.data });
         setResumeData(response.data);
       })
       .catch((err) => console.log(err));
@@ -33,7 +32,6 @@ const App = () => {
     return (
       <div className="App">
         <Header data={resumeData.main} />
-        <About data={resumeData.main} />
         <Resume data={resumeData.resume} />
         <Portfolio data={resumeData.portfolio} />
         <Testimonials data={resumeData.testimonials} />
