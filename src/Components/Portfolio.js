@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Portfolio = () => {
+const Portfolio = (props) => {
   if (!props.data) {
     return null;
   }
+
   return (
     <section id="portfolio">
       <div className="row">
