@@ -1,11 +1,63 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
+import axios from 'axios';
+import { BASE_API_URL } from '../utils/constants';
+
+const initialValues = {
+  contactName: '',
+  contactEmail: '',
+  contactSubject: '',
+  contactMessage: '',
+};
 
 const Contact = (props) => {
+  const [state, setState] = useState(initialValues);
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
   if (!props.data) {
     return null;
   }
 
   const { name, address, phone, email, contactmessage } = props.data || {};
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setState((prev) => {
+      return {
+        ...prev,
+        [name]: value,
+      };
+    });
+  };
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+    console.log({ state });
+    const allFieldsEntered = Object.keys(state).every(
+      (field) => state[field].trim() !== ''
+    );
+    if (allFieldsEntered) {
+      setErrorMessage('');
+      setSuccessMessage('');
+      axios
+        .post(`${BASE_API_URL}/sendEmail`, { ...state })
+        .then((res) => {
+          console.log(res.data);
+          setSuccessMessage('Email sent successfully.');
+          setTimeout(() => {
+            setSuccessMessage('');
+          }, 3000);
+          setState(initialValues);
+        })
+        .catch((err) => {
+          console.log(err);
+          setErrorMessage('Error whilesending email. Please try again later.');
+        });
+    } else {
+      setErrorMessage('Please enter all the field values.');
+      setSuccessMessage('');
+    }
+  };
 
   return (
     <section id="contact">
@@ -18,18 +70,23 @@ const Contact = (props) => {
 
         <div className="ten columns">
           <p className="lead">{contactmessage}</p>
-          <br />
-          <p className="lead warning">
-            Warning: Contact form not yet configured, please contact me via
-            normal email for now
-          </p>
         </div>
       </div>
 
       <div className="row">
         <div className="eight columns">
-          <form action="" method="post" id="contactForm" name="contactForm">
+          <form
+            action=""
+            method="post"
+            id="contactForm"
+            name="contactForm"
+            onSubmit={handleFormSubmit}
+          >
             <fieldset>
+              {errorMessage && <p className="error-msg">{errorMessage}</p>}
+              {successMessage && (
+                <p className="success-msg">{successMessage}</p>
+              )}
               <div>
                 <label htmlFor="contactName">
                   Name <span className="required">*</span>
@@ -40,6 +97,8 @@ const Contact = (props) => {
                   size="35"
                   id="contactName"
                   name="contactName"
+                  value={state.contactName}
+                  onChange={handleInputChange}
                 />
               </div>
 
@@ -53,6 +112,8 @@ const Contact = (props) => {
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
+                  value={state.contactEmail}
+                  onChange={handleInputChange}
                 />
               </div>
 
@@ -64,6 +125,8 @@ const Contact = (props) => {
                   size="35"
                   id="contactSubject"
                   name="contactSubject"
+                  value={state.contactSubject}
+                  onChange={handleInputChange}
                 />
               </div>
 
@@ -76,11 +139,15 @@ const Contact = (props) => {
                   rows="15"
                   id="contactMessage"
                   name="contactMessage"
+                  value={state.contactMessage}
+                  onChange={handleInputChange}
                 ></textarea>
               </div>
 
               <div>
-                <button className="submit">Submit</button>
+                <button className="submit" type="submit">
+                  Submit
+                </button>
                 <span id="image-loader">
                   <img alt="" src="images/loader.gif" />
                 </span>
