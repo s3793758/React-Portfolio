@@ -12,16 +12,16 @@
     "phone": "Email To Request",
     "address": {
       "street": "Pacific Avenue",
-      "city": "Victoria",
-      "state": "British Columbia",
-      "zip": "V9A 1L6"
+      "city": "Sydney",
+      "state": "New South Wales",
+      "postCode": "2170"
     },
     "website": "",
     "resumedownload": "https://drive.google.com/uc?export=pdf&id=1JZ_9_koC-W0jVg39lGh8Jd0hwJzv8kqn",
     "social": [
       {
         "name": "linkedin",
-        "url": "https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url": "https://www.linkedin.com/in/muhamad-sahid-791981113/",
         "className": "fa fa-linkedin"
       },
       {
@@ -31,7 +31,7 @@
       },
       {
         "name": "github",
-        "url": "http://github.com/tbakerx",
+        "url": "https://github.com/s3793758",
         "className": "fa fa-github"
       }
     ]
