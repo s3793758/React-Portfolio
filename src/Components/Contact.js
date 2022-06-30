@@ -75,13 +75,7 @@ const Contact = (props) => {
 
       <div className="row">
         <div className="eight columns">
-          <form
-            action=""
-            method="post"
-            id="contactForm"
-            name="contactForm"
-            onSubmit={handleFormSubmit}
-          >
+          <form action="" method="post" id="contactForm" name="contactForm">
             <fieldset>
               {errorMessage && <p className="error-msg">{errorMessage}</p>}
               {successMessage && (
@@ -164,14 +158,12 @@ const Contact = (props) => {
 
         <aside className="four columns footer-widgets">
           <div className="widget widget_contact">
-            <h4>Address and Phone</h4>
+            <h4>Address</h4>
             <p className="address">
               {name}
               <br />
               {address.city} <br />
               {address.state}, {address.zip}
-              <br />
-              <span>{phone}</span>
               <br />
               <span>
                 <a href="mailto:mas152q@gmail.com">{email}</a>

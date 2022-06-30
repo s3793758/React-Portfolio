@@ -28,18 +28,18 @@ const App = () => {
         setResumeData(response.data);
       })
       .catch((err) => console.log(err));
-
-    return (
-      <div className="App">
-        <Header data={resumeData.main} />
-        <Resume data={resumeData.resume} />
-        <Portfolio data={resumeData.portfolio} />
-        <Testimonials data={resumeData.testimonials} />
-        <Contact data={resumeData.main} />
-        <Footer data={resumeData.main} />
-      </div>
-    );
   }
+
+  return (
+    <div className="App">
+      <Header data={resumeData.main} />
+      <Resume data={resumeData.resume} />
+      <Testimonials data={resumeData.testimonials} />
+      <Portfolio data={resumeData.portfolio} />
+      <Contact data={resumeData.main} />
+      <Footer data={resumeData.main} />
+    </div>
+  );
 };
 
 export default App;

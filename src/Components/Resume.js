@@ -84,7 +84,6 @@ const Resume = (props) => {
               })}
             </p>
           </div>
-          <ul className="bgrid-quarters s-bgrid-thirds cf">{skills}</ul>
         </div>
       </div>
     </section>
