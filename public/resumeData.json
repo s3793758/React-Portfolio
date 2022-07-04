@@ -4,9 +4,9 @@
     "occupation": " Full Stack Software Developer",
     "description": " currently freelancing",
     "employer": " ",
-    "jobDescription": "brainstorm ideas, design wireframe, and slap my keyboard until everything works",
+    "jobDescription": "Brainstorm Ideas, Design Protoype, & Slap My Keyboard Until Everything Works",
     "image": "profile_pic.jpg",
-    "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack for online security, and a passion for coding. Born in a south west sydeny, alongside my many ongoing projects. I love to create and tend to keep a few too many projects on the go at a time. Outside of work I am an avid thrill seeker, hiking and seeking new goals to accomplish. I love to travel and lead a fairly nomadic lifestyle. As show are some client work i've done in my early stages as a programmer.",
+    "bio": "I am an athlete at heart, with an entrepreneurial spirit, a knack for the logic and sciense how everything works, a passion for coding. Born in a south west sydeny, alongside my many ongoing projects. I love to create and tend to keep a few too many projects on the go at a time. Outside of work I am an avid thrill seeker, hiking and seeking new goals to accomplish. I love to travel and lead a fairly nomadic lifestyle. As show are some client work i've done in my early stages as a programmer.",
     "contactmessage": "Have a project for me? Think I'd be a good fit for your team? I'd love to hear from you, give me a shout by email or by using the form below if you'd like to get in contact with me.",
     "email": "mas152q@gmail.com",
     "address": {
@@ -41,7 +41,7 @@
         "school": "University of Wollongong",
         "degree": "Bachelors in Infromation Technology",
         "graduated": "Expected April 2022",
-        "description": "Here I took my Bachelors degree achieved a much more thorough education. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems."
+        "description": "Here I took my Bachelors degree achieved a much more thorough education. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems. I was given the oppoinrtiy to become uow ambassador, president of 3 society, student succesmentor advisor to uni life in supporting engagment in the south western sydney liverpool campus"
       },
       {
         "school": "University of Sydney",
@@ -50,7 +50,7 @@
         "description": "I took place in a virtual learning where every week we would learn and be assest in new concepts on full stack development, with group projects done virtually, such as html,css, jquery,bootstrap, other html frameworks, node,express, javascrip es6, oop, heoku, mongodb, mysql, orm, handlebar, react ."
       },
       {
-        "school": "University of jiao tong",
+        "school": "University of jiao tong (china)",
         "degree": "Full Stack Developer",
         "graduated": "2018",
         "description": "I took place in a global summer school intertship with 13 countries, being nomintated team leader in building a weather APi using bootstrap, css, javascript, mysql, placing 3rd place out of 12 teams."
@@ -98,7 +98,7 @@
         "image": "noteexpress.png"
       },
       {
-        "name": "Bootstrap 4",
+        "name": "Bootstrap 5",
         "description": "I use Bootstrap more often than not when designing the layout for my sites. It is the framework I am most familiar with and can therefore design more quickly than with others.",
         "image": "bootstrap.jpg"
       },
@@ -149,6 +149,12 @@
         "title": "FairDinking messager",
         "category": "Messanger group for hunting.",
         "image": "fairdink.jpg",
+        "url": "https://github.com/"
+      },
+      {
+        "title": "MarvelTube",
+        "category": "Virtual group project Using Marvel API connecting it keysearch word to Youtube API search.",
+        "image": "marvelapi.png",
         "url": "https://github.com/"
       }
     ]
