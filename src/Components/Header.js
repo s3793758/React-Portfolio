@@ -70,9 +70,9 @@ const Header = (props) => {
           </h3>
           <hr />
           <ul className="social">
-            {social.map(function (network) {
+            {social.map(function (network, index) {
               return (
-                <li key={network.name}>
+                <li key={index}>
                   <a href={network.url}>
                     <i className={network.className}></i>
                   </a>

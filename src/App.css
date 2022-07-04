@@ -1,22 +1,54 @@
-.newline{
+.newline {
   white-space: pre-wrap;
 }
 
-#portfolio h1{
+#portfolio h1 {
   font-size: 2rem;
 }
 
-.feature-item{
+.feature-item {
   text-align: center;
-  margin-top:2.5em;
-  padding-left:2em;
-  padding-right:2em;
+  margin-top: 2.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 250px;
+  height: auto;
 }
 
-.center{
+.center {
   text-align: center;
 }
 
-.warning{
+.warning {
   color: red;
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.error-msg {
+  color: #ff0000;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 900px) {
+  .feature-item {
+    width: 50%;
+  }
+  .row {
+    width: 100%;
+  }
+  .row.skill {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .feature-item {
+    width: 100%;
+    margin: 0;
+  }
 }

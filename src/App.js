@@ -33,8 +33,8 @@ const App = () => {
   return (
     <div className="App">
       <Header data={resumeData.main} />
+      <About data={resumeData.main} />
       <Resume data={resumeData.resume} />
-      <About data={resumeData.About} />
       <Testimonials data={resumeData.testimonials} />
       <Portfolio data={resumeData.portfolio} />
       <Contact data={resumeData.main} />

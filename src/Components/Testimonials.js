@@ -15,9 +15,9 @@ const Testimonials = (props) => {
 
           <div className="ten columns flex-container">
             <ul className="slides">
-              {props.data.testimonials.map(function (testimonials) {
+              {props.data.testimonials.map(function (testimonials, index) {
                 return (
-                  <li key={testimonials.user}>
+                  <li key={index}>
                     <blockquote>
                       <p>{testimonials.text}</p>
                       <cite>{testimonials.user}</cite>

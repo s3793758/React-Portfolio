@@ -4,6 +4,8 @@ const About = (props) => {
   const { name, image, bio, address, phone, email, resumedownload } =
     props.data || {};
 
+  console.log({ dt: props.data });
+
   if (!props.data) {
     return null;
   }

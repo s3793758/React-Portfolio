@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 import { BASE_API_URL } from '../utils/constants';
 
@@ -18,7 +18,7 @@ const Contact = (props) => {
     return null;
   }
 
-  const { name, address, phone, email, contactmessage } = props.data || {};
+  const { name, address, email, contactmessage } = props.data || {};
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -75,7 +75,13 @@ const Contact = (props) => {
 
       <div className="row">
         <div className="eight columns">
-          <form action="" method="post" id="contactForm" name="contactForm">
+          <form
+            action=""
+            method="post"
+            id="contactForm"
+            name="contactForm"
+            onSubmit={handleFormSubmit}
+          >
             <fieldset>
               {errorMessage && <p className="error-msg">{errorMessage}</p>}
               {successMessage && (
@@ -87,7 +93,6 @@ const Contact = (props) => {
                 </label>
                 <input
                   type="text"
-                  defaultValue=""
                   size="35"
                   id="contactName"
                   name="contactName"
@@ -102,7 +107,6 @@ const Contact = (props) => {
                 </label>
                 <input
                   type="text"
-                  defaultValue=""
                   size="35"
                   id="contactEmail"
                   name="contactEmail"
@@ -115,7 +119,6 @@ const Contact = (props) => {
                 <label htmlFor="contactSubject">Subject</label>
                 <input
                   type="text"
-                  defaultValue=""
                   size="35"
                   id="contactSubject"
                   name="contactSubject"

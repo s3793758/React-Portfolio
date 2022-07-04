@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Resume = (props) => {
-  const { skillmessage, education, work, skills } = props.data || {};
+  const { education, work, skills } = props.data || {};
   if (!props.data) {
     return null;
   }
@@ -18,9 +18,9 @@ const Resume = (props) => {
         <div className="nine columns main-col">
           <div className="row item">
             <div className="twelve columns">
-              {education.map(function (education) {
+              {education.map(function (education, index) {
                 return (
-                  <div key={education.school}>
+                  <div key={index}>
                     <h3>{education.school}</h3>
                     <p className="info">
                       {education.degree} <span>&bull;</span>
@@ -43,9 +43,9 @@ const Resume = (props) => {
         </div>
 
         <div className="nine columns main-col">
-          {work.map(function (work) {
+          {work.map(function (work, index) {
             return (
-              <div key={work.company}>
+              <div key={index}>
                 <h3>{work.company}</h3>
                 <p className="info">
                   {work.title}
@@ -59,31 +59,21 @@ const Resume = (props) => {
       </div>
 
       <div className="row skill">
-        <div className="three columns header-col">
-          <h1>
-            <span>Favorite Tech</span>
-          </h1>
-        </div>
+        <h1>
+          <span>Favorite Tech</span>
+        </h1>
 
-        <div>
-          <div className="nine columns main-col">
-            <p className="lead center">
-              {skills.map(function (skills) {
-                var projectImage = 'images/tech/' + skills.image;
-                return (
-                  <div key={skills.name} className="columns feature-item">
-                    <img
-                      className="skill"
-                      alt={skills.name}
-                      src={projectImage}
-                    />
-                    <h5>{skills.name}</h5>
-                    <p>{skills.description}</p>
-                  </div>
-                );
-              })}
-            </p>
-          </div>
+        <div className="skills">
+          {skills.map(function (skills, index) {
+            var projectImage = 'images/tech/' + skills.image;
+            return (
+              <div key={index} className=" feature-item">
+                <img className="skill" alt={skills.name} src={projectImage} />
+                <h5>{skills.name}</h5>
+                <p>{skills.description}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
