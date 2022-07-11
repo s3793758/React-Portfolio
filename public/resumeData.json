@@ -123,31 +123,31 @@
     "projects": [
       {
         "title": "Voice Of The Ummah",
-        "category": "Chairty organisation in nigeria ola discrtid",
+        "category": "Non-For-Profit Organisation in Africa",
         "image": "voiceofummah.png",
         "url": "https://github.com/s3793758/Nigeria-chairty-VoiceOfTheUmmah"
       },
       {
         "title": "Care Out Of Reach",
-        "category": "chairty organsiation in uganda ",
+        "category": "Charity organsiation in uganda ",
         "image": "careoutreach.png",
-        "url": "https://github.com/s3793758/Uganda-Chairty-CareOutOfReach"
+        "url": "https://react-uganda.herokuapp.com/"
       },
       {
         "title": "Observent",
         "category": "Auditing Application ensure, incoming, out coming expensive and tracking manpower printing reports",
-        "image": "tracker.jpg",
+        "image": "comming-soon.png",
         "url": "https://github.com/"
       },
       {
-        "title": "Social Media for hunters",
-        "category": "(handlebars) A social media blog on hunting, to provide infromation tips, advice, compeition for new commers but also to store infromation and plan events",
-        "image": "hunter.jpg",
-        "url": "https://github.com/"
+        "title": "prism-breaker ",
+        "category": "A social media blog for people with like mind who enjoy playing Dungeon and Dragons, can network, and find people to organise events.",
+        "image": "prisim.jpg",
+        "url": "https://github.com/s3793758/prism-breaker"
       },
       {
         "title": "FairDinking messager",
-        "category": "Messanger group for hunting.",
+        "category": "Messanger application.",
         "image": "fairdink.jpg",
         "url": "https://github.com/"
       },
