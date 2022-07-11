@@ -13,7 +13,7 @@ I made this app in order to learn how to implement React on the front-end. In fu
 
 ## Usage
 
-- The app is deployed at 
+- The app is deployed at https://brown-sugar.herokuapp.com/
 
 
 ## Development and Testing
