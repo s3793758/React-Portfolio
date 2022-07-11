@@ -8,7 +8,7 @@ const Header = (props) => {
     description,
     jobDescription,
     employer,
-    city,
+    address,
     social,
   } = props.data || {};
 
@@ -64,7 +64,7 @@ const Header = (props) => {
         <div className="banner-text">
           <h1 className="responsive-headline">I'm {name}.</h1>
           <h3>
-            I'm a <span>{city}</span> based <span>{occupation}</span>,
+            I'm a <span>{address.city}</span> based <span>{occupation}</span>,
             {description}
             <span>{employer}</span> where I<span> {jobDescription}</span>.
           </h3>

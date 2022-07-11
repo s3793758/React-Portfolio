@@ -1,7 +1,7 @@
 import React from 'react';
 
 const About = (props) => {
-  const { name, city, image, bio, address, phone, email, resumedownload } =
+  const { name, image, bio, address, phone, email, resumedownload } =
     props.data || {};
 
   console.log({ dt: props.data });
