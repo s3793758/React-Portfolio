@@ -29,7 +29,7 @@ I made this app in order to learn how to implement React on the front-end. In fu
 ```sh
 git clone https://github.com/s3793758/React-Portfolio.git
 
-cd react-portfolio
+cd Muhamad-Sahid-Personal-Website-master
 ```
 
 ### 2. Install dependencies
