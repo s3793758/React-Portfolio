@@ -40,20 +40,20 @@
       {
         "school": "University of Wollongong",
         "degree": "Bachelors in Infromation Technology",
-        "graduated": "Expected April 2022",
-        "description": "Here I took my Bachelors degree achieved a much more thorough education. It was here that I discovered my passion for scalable application programming (web and mobile), the security behind computer and application systems. I was given the oppoinrtiy to become uow ambassador, president of 3 society, student succesmentor advisor to uni life in supporting engagment in the south western sydney liverpool campus"
+        "graduated": "July 2022",
+        "description": "Here I took my Bachelors degree achieved a much more thorough education. It was here that I discovered my passion for scalable application programming (web and mobile). I was given the opportunity:  <ul><li>UOW ambassador</li> <li>President & Founder of 3 Society</li> <li>Student Succes Mentor</li> <li>In2Uni Mentor</li> <li>Advisor UniLife - Supporting Engagment in campus</li></ul>'"
       },
       {
         "school": "University of Sydney",
         "degree": "Full Stack Developer",
         "graduated": "August 2022",
-        "description": "I took place in a virtual learning where every week we would learn and be assest in new concepts on full stack development, with group projects done virtually, such as html,css, jquery,bootstrap, other html frameworks, node,express, javascrip es6, oop, heoku, mongodb, mysql, orm, handlebar, react ."
+        "description": "I took place in a remote learning to become a full stack developer through javascript frame works every week would be demonstrate a project on concept we leared, As showcased on my github and on this portfolio of real client work."
       },
       {
         "school": "University of jiao tong (china)",
         "degree": "Full Stack Developer",
         "graduated": "2018",
-        "description": "I took place in a global summer school intertship with 13 countries, being nomintated team leader in building a weather APi using bootstrap, css, javascript, mysql, placing 3rd place out of 12 teams."
+        "description": "I took place in a global summer school internship among 13 countries, being nomintated team leader in a mix team of non-english speakers building an application using BootStrap, CSS, Javascript, MYSQL. Placing 3rd place out of 12 teams."
       }
     ],
     "work": [
@@ -61,13 +61,13 @@
         "company": "Ohana Dev",
         "title": "Full Stack Developer",
         "years": "October 2021 - Present",
-        "description": "Mulitiple clients, in the humaintarian aid sector. Using bootstrap, css, javascript  \n\n ."
+        "description": "Mulitiple clients, in the humaintarian aid sector. Using bootstrap, css, javascript ."
       },
       {
         "company": "Ohana Dev",
         "title": "Full Stack Developer - contractor",
-        "years": "August - Present",
-        "description": "Building an audit application for employees to overview working hours, income and expneisved used , which display summary PDF of selected options. \n\nI was given the ooportunuty to build the whole application, in conducting everything i learned from both degress, insuring stakeholders wireframe designs and working prototype using figma, then creating test version and seeing it deployed live."
+        "years": "August - Novemeber ",
+        "description": "Building an audit application for a Non-For-Profit Organisation in ensure maximum productivity in all aspect of the organsation to ensure right resoruces are allocated correctly. Features are such to ensuring correct auditing and record keeping is efficent. \n\n I was given the opportunity to build the whole application, in conducting everything i learned from both degress, insuring stakeholders wireframe designs and working prototype using figma."
       }
     ],
     "skills": [
